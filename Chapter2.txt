@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <stdio.h> // 전처리 지시자인 include가 stdio.h파일을 호출
 
-int main(void)
+int main(void) /* startup_code가 main의 이름을 가진 함수를 호출, main함수의 리턴값은 정수형, main함수을 기능하게하는 매개변수는 없음(void) */
 {
 	1+2;
 	
-	return 0;
+	return 0; // 정상적으로 종료하면 0반환, 이상있을시 1반환.
 }	
